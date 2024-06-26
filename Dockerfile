@@ -1,5 +1,5 @@
 # Use a imagem oficial do Maven com Java 21
-FROM maven:3.9.3-eclipse-temurin-21
+FROM maven:3-amazoncorretto-21
 
 # Defina o diretório de trabalho dentro do contêiner
 WORKDIR /app
